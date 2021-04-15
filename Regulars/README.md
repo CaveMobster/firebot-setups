@@ -1,6 +1,6 @@
 # Regulars role
 
-This will add a role and an event to automatically add users as a regular in your stream after a certain amount of hours.
+This setup adds a role and an event to automatically add users as a regular in your stream after a certain amount of hours.
 
 By default it's set to 5 hours, but in the setup you will be asked to fill in the preferred amount of hours.
 
