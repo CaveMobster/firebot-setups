@@ -1,7 +1,7 @@
 
 # Shoutouts for The Nook
 
-To update.
+These two setups will provide an `!so` command that displays a different message when it's used on a Nookian. Optionally, there is second setup to display a different message for the founders of the team.
 
 ## How to download
 
