@@ -18,7 +18,7 @@ This setup adds a queue command that works with subcommands.
 
 **!queue clear** - Clears the file.
 
-**!queue [anything]** - Is a fallback command with which the user can enter the queue with a custom message.
+**!queue [anything]** - Fallback command with which the user can enter the queue with a custom message.
 
 
 ## How to download
