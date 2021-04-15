@@ -1,2 +1,6 @@
+# Regulars role
 
-Download the setup by right clicking on [this link](https://raw.githubusercontent.com/CaveMobster/firebot-setups/master/Regulars/regulars.firebotsetup) and choosing "Save Link As...".
+This will add a role and an event to automatically add users as a regular in your stream.
+
+## How to download
+Right click on [this link](https://raw.githubusercontent.com/CaveMobster/firebot-setups/master/Regulars/regulars.firebotsetup) and choose "Save Link As...".
