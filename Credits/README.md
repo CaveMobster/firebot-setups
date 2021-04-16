@@ -13,7 +13,7 @@ The bot collects the names of all of the below, puts them in files and then crea
 - Hosts & raids
 
 ## How to download
-Right click on [this link](to add) and choose "Save Link As...".
+Right click on [this link](https://github.com/CaveMobster/firebot-setups/blob/master/Credits/Credits.zip?raw=true) and choose "Save Link As...".
 
 ## Setup walkthrough
 This setup is a bit more complex than others in this repository, because it's includes modifications in OBS.  
