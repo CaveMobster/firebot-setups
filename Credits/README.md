@@ -97,7 +97,7 @@ There are two ways to run the credits, either by using the command or by using a
 ### With an Elgato Stream Deck:
 1. Go to Effects
 2. Click Preset Effect Lists
-3. Click the three dots behind `[credits] Clear credits` and choose Edit
+3. Click the three dots behind `[credits] Roll credits` and choose Edit
 4. Click 'How to trigger from StreamDeck' and follow the instructions
 
 I recommend making a multi action button in which you switch to the scene on which the credits are displayed, because you won't have to manually refresh the browser source.
