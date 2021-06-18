@@ -1,4 +1,4 @@
-# Raids and hosts log
+# Temperature converter
 
 This adds a regex command that will detect temperatures in a chat message, such as 15C, -10.7C, 120F, 20f, etc. Simply adding the setup will suffice.
 
