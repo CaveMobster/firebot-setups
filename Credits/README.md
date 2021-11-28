@@ -9,15 +9,14 @@ The bot collects the names of all of the below, puts them in files and then crea
 - Subs & resubs
 - Gift subs (only the names of the gifters will be displayed)
 - Bits
-- Tips (both Streamlabs and StreamElements)
 - Hosts & raids
 
 ## How to download
-Right click on [this link](https://github.com/CaveMobster/firebot-setups/blob/master/Credits/Credits.zip?raw=true) and choose "Save Link As...".
+Right click on [this link](https://github.com/CaveMobster/firebot-setups/blob/master/Credits/credits.firebotsetup?raw=true) and choose "Save Link As...".
 
 ## Setup walkthrough
-This setup is a bit more complex than others in this repository, because it's includes modifications in OBS.  
-**Note:** I made this walkthrough using OBS. I can imagine SLOBS is pretty similar, but if you're struggling to make it work, feel free to DM me (Cave).
+This setup is a bit more complex than others in this repository, because it's includes modifications in OBS.
+**Note:** I made this walkthrough using OBS. I can imagine SLOBS is pretty similar, but if you're struggling to make it work, feel free to ask in the #setups channel in the CrowbarTools Discord.
 
 ### Import the setup in Firebot
 In Firebot:
@@ -25,8 +24,8 @@ In Firebot:
 2. Choose Import Setup
 3.  Locate the setup file that you downloaded from this page
 
-You will see a bunch of commands, events and preset effect lists that will get added to the bot. Below that, you will find a list of questions, in which you have to provide the path to the files that you downloaded along with the setup and optionally different names you want to give to, for example, subs.  
-**Warning**: If you move the files to another place on your computer _after_ the setup, Firebot will no longer know where it's located. If you know where to change all the paths in the events and lists, make sure to do that. If you don't, you may want to import the setup again.
+You will see a bunch of commands, events and preset effect lists that will get added to the bot. Below that, you will find a list of questions, in which you have to provide the path to the folder in which you intend to store the temporary files (emptied when Firebot starts) and optionally different names you want to give to, for example, subs.
+**Warning**: If you move the files to another place on your computer _after_ the setup, Firebot will no longer know where it's located. If you know where to change all the paths in the events and lists in Firebot, make sure to do that. If you don't, you may want to import the setup again.
 
 ### Make the credits show up in OBS
 Go to the scene where you want the credits to show up and do the following:
@@ -37,13 +36,13 @@ Go to the scene where you want the credits to show up and do the following:
 5. Check the 'Refresh browser when scene becomes active' checkbox
 6. In the custom CSS, add the following:
 ```css
-body { 
-	background-color: rgba(0, 0, 0, 0); 
-	margin: 0px auto; 
+body {
+	background-color: rgba(0, 0, 0, 0);
+	margin: 0px auto;
 	color: #FFF;  /* The color of the font, change this to your preferred text color. */
 	font-family: Kalam; /* Change this to your preferred font. */
-	text-align: center; 
-	overflow: hidden; 
+	text-align: center;
+	overflow: hidden;
 }
 
 .marquee {
@@ -61,7 +60,7 @@ body {
 	100% { transform: translateY(-100%) }
 }
 
-h1 { 
+h1 {
 /*
 	font-size: Title font size, increase or decrease the number to your liking.
 	font-weight: Options: 100, 200, 300, 400, 500, 600, 700, 800, 900.
@@ -69,10 +68,10 @@ h1 {
 */
 	font-size: 35px;
 	font-weight: 700;
-	margin: 0 0 5px 0; 
+	margin: 0 0 5px 0;
 }
 
-p { 
+p {
 /*
 	font-size: Font size of the names, increase or decrease the number to your liking.
 	font-weight: Options: 100, 200, 300, 400, 500, 600, 700, 800, 900.
@@ -81,7 +80,7 @@ p {
 	font-size: 25px;
 	font-weight: 300;
 	margin: 0 0 40px 0;
-	white-space: pre-line;  
+	white-space: pre-line;
 }
 ```
 
@@ -111,7 +110,7 @@ If you don't want to display certain parts of the credits, for example, you don'
 2. You remove the event entirely by doing the above, but instead of choosing 'Toggle Enabled', you choose 'Delete'.
 
 ### How do I clear the credits?
-The credits get cleared every time your bot restarts, but you can also do it manually if needed. 
+The credits get cleared every time your bot restarts, but you can also do it manually if needed.
 - If you don't have a stream deck, use the `!clearcredits` command.
 - If you have an Elgato Stream Deck, go Effects -> Preset Effect Lists. Click on the three dots behind `[credits] Clear credits` and choose Edit. Click on How to trigger from Stream Deck and follow the instructions.
 
@@ -120,8 +119,4 @@ The credits get cleared every time your bot restarts, but you can also do it man
 ### Can I add other fun things to display in the credits?
 
 Yes! If you know your way around Firebot I suggest you play around with it and see what you can do, but I plan on making extensions of this credits function in the future.
-
-
-### Need help?
-DM Cave or ask in the tech channel.
 
