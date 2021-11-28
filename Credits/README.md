@@ -3,7 +3,7 @@
 This setup adds end credits to show at the end of the stream.
 
 ## What it does
-The bot collects the names of all of the below, puts them in files and then creates an html file out of all those files that you can include in a browser source in OBS. When a certain event hasn't happened, for example if you didn't get any tips, it will exclude that block from the credits. The files get cleared every time Firebot starts, but you can also use a command or use your stream deck.
+The bot collects the names of all of the below, puts them in files and then updates the html file you created, which you can include in a browser source in OBS. When a certain event hasn't happened, for example if you didn't get any tips, it will exclude that block from the credits. The files get cleared every time Firebot starts, but you can also use a command or use your stream deck.
 - Mods
 - Follows
 - Subs & resubs
@@ -24,7 +24,8 @@ In Firebot:
 2. Choose Import Setup
 3.  Locate the setup file that you downloaded from this page
 
-You will see a bunch of commands, events and preset effect lists that will get added to the bot. Below that, you will find a list of questions, in which you have to provide the path to the folder in which you intend to store the temporary files (emptied when Firebot starts) and optionally different names you want to give to, for example, subs.
+You will see a bunch of commands, events and preset effect lists that will get added to the bot. Below that, you will find a list of questions, in which you have to provide the path to the folder in which you created the empty `credits.html` file and optionally different names you want to give to, for example, subs.
+
 **Warning**: If you move the files to another place on your computer _after_ the setup, Firebot will no longer know where it's located. If you know where to change all the paths in the events and lists in Firebot, make sure to do that. If you don't, you may want to import the setup again.
 
 ### Make the credits show up in OBS
